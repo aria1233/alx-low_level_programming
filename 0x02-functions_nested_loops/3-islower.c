@@ -7,7 +7,7 @@
  * Return: 1 if true, 0 otherwise
  */
 
-int _islower(int c)
+void test_islower(int c)
 {
 	int i = 'a';
 	i =_islower(c);
