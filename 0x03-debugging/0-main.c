@@ -2,7 +2,7 @@
 
 /**
  * main - function that prints whether a number is negative or positive
- * Return: always 0 (success)
+ * Return: 0
  */
 
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 	int i;
 
 	i = o;
-	positive_or_negative;
+	positive_or_negative(i);
 
 	return (0);
 }
