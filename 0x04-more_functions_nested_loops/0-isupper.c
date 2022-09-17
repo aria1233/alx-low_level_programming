@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - takes a date and prints how many days are
- * left in the year, taking leap years into account
+ * _isupper - takes a date and prints how many days are left in the year, taking leap years into account
  * @c: alphabet
  * Return: (0)
  *
