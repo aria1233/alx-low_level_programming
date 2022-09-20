@@ -2,13 +2,9 @@
 #include <stdio.h>
 
 /**
- *
  * _strlen - returns the length of a string.
- *
  * @s: number tested
- *
- * Return: Always 0.
- *
+ * Return: Always 0
  */
 
 int _strlen(char *s)
