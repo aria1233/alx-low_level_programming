@@ -2,19 +2,29 @@
 #include <stdio.h>
 
 /**
- * int _strlen - returns length of string
- * @s: number being tested
- * Return: always 0
+ *
+ * _strlen - returns the length of a string.
+ *
+ * @s: number tested
+ *
+ * Return: Always 0.
+ *
  */
 
 int _strlen(char *s)
-{
-	char *s;
-	int len;
 
-	s = "string";
-	
-	len = _strlen(char *s);
-	printf("_strlen(char *s): %d\n", len);
-	return (0);
+{
+
+	int i = 0;
+
+	while (*(s + i))
+
+	{
+
+		i++;
+
+	}
+
+	return (i);
+
 }
