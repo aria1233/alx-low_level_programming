@@ -15,29 +15,10 @@ void reverse_array(int *a, int n)
 
 	n = n - 1;
 	count = 0;
-:wq
 	while (count <= n)
 	{
 		temp = a[count];
 		a[count++] = a[n];
 		a[n--] = temp;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-git add .
-git }
+}
